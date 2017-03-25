@@ -4,7 +4,7 @@ from socketIO_client import SocketIO, LoggingNamespace
 import numpy as np
 from random import uniform
 
-socketIO = SocketIO("http://localhost", 5000, LoggingNamespace)
+socketIO = SocketIO("http://localhost", 1993, LoggingNamespace)
 
 def getData(*args):
 	print(args[0])
